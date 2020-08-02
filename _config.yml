@@ -18,13 +18,13 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Angela Castillo"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Updated 08/2020"
 name                     : "Angela Castillo"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/Angela.jpg"
+teaser                   : # "./assets/images/Angela.jpg"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -94,12 +94,12 @@ analytics:
 # Site Author
 author:
   name             : "Angela Castillo"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/Angela.jpg"
   bio              : "I am a PhD student at Universidad de los Andes in Bogotá, Colombia."
   location         : "Bogotá, Colombia"
   email            : "a.castillo13@uniandes.edu.co"
   links:
-    - label: "a.castillo13@uniandes.edu.co"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
     - label: "Website"
