@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Angela Castillo"
   avatar           : "/assets/images/Angela.jpg"
-  bio              : "I am a PhD student at Universidad de los Andes in Bogotá, Colombia."
+  bio              : "I am a PhD student, sports lover and photography enthusiast."
   location         : "Bogotá, Colombia"
   # email            : 
   links:
@@ -267,22 +267,21 @@ compress_html:
 
 
 # Defaults
-# defaults:
-#   # _posts
-#   - scope:
-#       path: ""
-#       type: posts
-#     values:
-#       layout: single
-#       author_profile: true
-#       read_time: true
-#       comments: # true
-#       share: true
-#       related: true
 defaults:
-  # _pages
+  # _posts
   - scope:
       path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
       type: pages
     values:
       layout: single
