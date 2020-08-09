@@ -5,7 +5,7 @@ main:
   - title: "About"
     url: https://angelacast135.github.io/
   - title: "News"
-    permalink: /splash/
+    url: /splash/
   - title: "Research"
   #   url: /year-archive/
   - title: "Teaching"
