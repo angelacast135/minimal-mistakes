@@ -3,25 +3,25 @@ layout: archive
 ---
 
 {{ content }}
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Old Posts" }}</h3>
+<!-- <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Old Posts" }}</h3> -->
 
-<h1>Angela Castillo
-  <br>
-  <h2>
-      My research is directed towards the generation of multimodal & multilabel images using adversarial training for
-      video sequences, and biomedical image enhancement for diagnose, at the Biomedical Computer Vision Lab. under the
-      supervision of Prof. <a href="https://biomedicalcomputervision.uniandes.edu.co/index.php">Pablo Arbeláez.</a>
-  </h2>
-</h1>
+<h1>Angela Castillo</h1>
+<br>
+<p>
+  My research is directed towards the generation of multimodal & multilabel images using adversarial training for
+  video sequences, and biomedical image enhancement for diagnose, at the Biomedical Computer Vision Lab. under the
+  supervision of Prof. <a href="https://biomedicalcomputervision.uniandes.edu.co/index.php">Pablo Arbeláez</a>.
+</p>
+
 
 {% if paginator %}
-  {% assign posts = paginator.posts %}
+{% assign posts = paginator.posts %}
 {% else %}
-  {% assign posts = site.posts %}
+{% assign posts = site.posts %}
 {% endif %}
 
 {% for post in posts %}
-  {% include archive-single.html %}
+{% include archive-single.html %}
 {% endfor %}
 
 {% include paginator.html %}
